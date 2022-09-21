@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Coin Price',
-      home: const SafeArea(
-        child: HomeScreen(),
-      ),
+      home: HomeScreen(),
     );
   }
 }

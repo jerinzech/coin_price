@@ -49,12 +49,13 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
-  # flutter_launcher_icons: ^0.10.0
-  # flutter_icons:
-  #   android: "icon.png"
-  #   ios: true
-  #   image_path: "lib/assets/images/icon.png"
-  #   min_sdk_android: 21 # android min sdk min:16, default 21
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/icon.png"
+  # min_sdk_android: 21 # android min sdk min:16, default 21
 
   # android min sdk min:16, default 21
 

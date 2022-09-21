@@ -26,18 +26,18 @@ class CoinCard extends StatelessWidget {
       child: Container(
         height: 100.0,
         decoration: BoxDecoration(
-          color: Colors.grey[850],
+          color: Colors.grey[900],
           borderRadius: BorderRadius.circular(15.0),
           boxShadow: [
             BoxShadow(
               color: Colors.grey.shade800,
-              offset: const Offset(4.0, 4.0),
+              offset: const Offset(-5.0, -5.0),
               blurRadius: 15.0,
               spreadRadius: 1.0,
             ),
             BoxShadow(
-              color: Colors.grey.shade900,
-              offset: const Offset(-4.0, -4.0),
+              color: Colors.black87,
+              offset: const Offset(5.0, 5.0),
               blurRadius: 15.0,
               spreadRadius: 1.0,
             ),
@@ -51,18 +51,18 @@ class CoinCard extends StatelessWidget {
                 height: 75,
                 width: 75,
                 decoration: BoxDecoration(
-                  color: Colors.grey[850],
+                  color: Colors.grey[900],
                   borderRadius: BorderRadius.circular(15.0),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.shade800,
-                      offset: const Offset(4.0, 4.0),
-                      blurRadius: 15.0,
+                      offset: const Offset(-4.0, -4.0),
+                      blurRadius: 10.0,
                       spreadRadius: 1.0,
                     ),
                     BoxShadow(
-                      color: Colors.grey.shade900,
-                      offset: const Offset(-4.0, -4.0),
+                      color: Colors.black87,
+                      offset: const Offset(4.0, 4.0),
                       blurRadius: 15.0,
                       spreadRadius: 1.0,
                     ),

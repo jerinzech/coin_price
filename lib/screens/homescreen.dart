@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 10.0,
-        backgroundColor: Colors.black87,
+        backgroundColor: Colors.grey[900],
         title: Center(
           child: Text('Coin Price',
               style: montserratStyle.copyWith(
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       body: Container(
-        color: Colors.grey[850],
+        color: Colors.grey[900],
         child: ListView.builder(
           scrollDirection: Axis.vertical,
           itemCount: coinList.length,

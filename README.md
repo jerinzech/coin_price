@@ -1,16 +1,5 @@
 # coin_price
 
-A new Flutter project.
+A simple Flutter project that pulls name, image, symbol, current price, price change in the last 24h in both USD and percentage via an API call.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img alt='Screenshot of the app screen' src='https://github.com/jerinzech/coin_price/blob/b4b2fda390627f0d2ece5075c20e544648615e90/Coin%20Price.jpg'>
